@@ -1,0 +1,10 @@
+head
+  title rustyEngine
+
+body
+  +hello
+  canvas#gameCanvas(width="1024" height="768")
+
+template(name="hello")
+  button Click Me
+  p You've pressed the button {{counter}} times.

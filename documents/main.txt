@@ -1,0 +1,2 @@
+export MONGO_URL=mongodb://gera.vn/rustyEngine
+sudo mount --bind /home/vagrant/rusty/local/ /vagrant/rustyEngine/.meteor/local/ & cd /vagrant/rustyEngine
